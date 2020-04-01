@@ -6,7 +6,7 @@ def Main():
 
     mathResult = re.match('think', line, re.M | re.I)
     if matchResult:
-        print("Match Found: " matchResult.group())
+        print("Match Found: " + matchResult.group())
     else:
         print("No Match was Found")
 
