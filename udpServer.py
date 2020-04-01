@@ -16,7 +16,7 @@ def Main():
         data = data.upper()
         print("Sending: "+data)
         s.sendto(data.encode('utf-8'), addr)
-    c.close()
+    s.close()
 
 
 if __name__ == "__main__":
